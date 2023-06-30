@@ -1,16 +1,13 @@
 /* gopipe.c
  *
- * CSC 360, Summer 2023
  *
  * Execute up to four instructions, piping the output of each into the
  * input of the next.
  *
- * Please change the following before submission:
  *
  * Author: Sai Nihal Diddi
  */
-/* Note: The following are the **ONLY** header files you are
- * permitted to use for this assignment! */
+
 #include <unistd.h>
 #include <stdlib.h>
 #include <string.h>
